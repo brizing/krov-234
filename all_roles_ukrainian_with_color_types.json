@@ -1,0 +1,510 @@
+[
+  {
+    "id": "vakula_uk",
+    "name": "Вакула (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця і назви його Оксаною.",
+    "reminders": [
+      "Оксана"
+    ],
+    "setup": false,
+    "ability": "Щоночі* обирає живого гравця і називає його Оксаною. Якщо гравця вб'ють, Вакула автоматично вбиває вбивцю.",
+    "image": "/build/img/icons/townsfolk/vakula.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "homa_brut_uk",
+    "name": "Хома Брут (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Червона команда (після 3 разів)"
+    ],
+    "setup": false,
+    "ability": "Тричі за гру може когось врятувати намалювавши крейдою коло. Одразу після цього втрачає розум і переходить до червоної команди.",
+    "image": "/build/img/icons/townsfolk/homa_brut.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "little_boy_uk",
+    "name": "Маленький хлопчик (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 1,
+    "firstNightReminder": "Покажіть хлопчику, хто є монахом.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Монах"
+    ],
+    "setup": false,
+    "ability": "На початку гри точно знає, хто монах. Якщо монах вказує вночі на хлопчика, то миттєво вмирає.",
+    "image": "/build/img/icons/townsfolk/little_boy.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "first_year_student_uk",
+    "name": "Першокурсниця (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 1,
+    "firstNightReminder": "Покажіть першокурсниці жетон Ріна та позначте його токеном 'Першокурсниця знає'.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Першокурсниця знає"
+    ],
+    "setup": true,
+    "ability": "Точно знає роль Ріна.",
+    "image": "/build/img/icons/townsfolk/first_year_student.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "breeze_uk",
+    "name": "Бріз (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Синій, але всім здається червоним, окрім власне червоних. Можна номінувати тільки одноразово.",
+    "image": "/build/img/icons/townsfolk/breeze.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "moses_uk",
+    "name": "Мойсей (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 1,
+    "firstNightReminder": "Позначте аномалію на полі 10х10.",
+    "otherNight": 1,
+    "otherNightReminder": "Обери напрямок і відстань (1-3 клітинки).",
+    "reminders": [
+      "Аномалія"
+    ],
+    "setup": true,
+    "ability": "Спавниться рандомно посеред пустелі 10х10, одна із клітинок на полі має аномалію. Щоночі обирає один з чотирьох напрямків і відстань від 1 до 3. Якщо пройшов по аномалії, точно дізнається демона.",
+    "image": "/build/img/icons/townsfolk/moses.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "anomaly_uk",
+    "name": "Аномалія (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Дізнається відстань до Мойсея.",
+    "reminders": [
+      "Відстань до Мойсея"
+    ],
+    "setup": false,
+    "ability": "Щоночі дізнається відстань до Мойсея.",
+    "image": "/build/img/icons/townsfolk/anomaly.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "thief_uk",
+    "name": "Крадій (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця і отримай його здібності на одну ніч.",
+    "reminders": [
+      "Крадіжка здібностей"
+    ],
+    "setup": false,
+    "ability": "Ну типу я крадій, обираю людину, навмання, і отримую ті здібності на одну ніч, ведучий каже мені здібність, а той у кого краду тех прокидається в свою чергу, але здебільшого просто не діє (як отруєний, ну не знає що не діє).",
+    "image": "/build/img/icons/townsfolk/thief.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "kevin_uk",
+    "name": "Кевін (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери 2 гравців, якщо це грабіжник — він помирає.",
+    "reminders": [
+      "Грабіжник помер"
+    ],
+    "setup": false,
+    "ability": "Прокидається кожну ніч та вказує на 2-х людей, якщо це має роль грабіжника то вона помирає.",
+    "image": "/build/img/icons/townsfolk/kevin.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "glintwain_master_uk",
+    "name": "Глінтвейн майстер (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця: він п'яний цілу ніч і не може бути вбитий.",
+    "reminders": [
+      "П'яний"
+    ],
+    "setup": false,
+    "ability": "Обирає в ночі гравця, той буде п'яним усю ніч і не прокидається в ночі та не може бути вбитим.",
+    "image": "/build/img/icons/townsfolk/glintwain_master.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "gerda_uk",
+    "name": "Герда (ГОР)",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Побачить 2 заморожених гравців на вибір майстра. Обери гравця: якщо він Кай — зроби його синім.",
+    "reminders": [
+      "Заморожені"
+    ],
+    "setup": false,
+    "ability": "В ночі бачить 2 заморожених гравців на вибір майстра. Окрім себе (себе бачить ніколи). Вночі вказує на гравця, якщо він Кай то робить його синім гравцем.",
+    "image": "/build/img/icons/townsfolk/gerda.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "hobo_with_shotgun_uk",
+    "name": "Бомж з дробовиком (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 1,
+    "firstNightReminder": "Кидає d20.",
+    "otherNight": 1,
+    "otherNightReminder": "Кидає d20: якщо число збіглося з вибором іншого гравця, гравець помирає.",
+    "reminders": [
+      "Кубик кинуто"
+    ],
+    "setup": false,
+    "ability": "Щоночі кидає d20, вдень може з'явитися Бомжем і всі кидають d20. Якщо лише одна людина викликає таке ж число, як випало вночі, ця людина вмирає. Якщо Бомж не в грі, майстер вирішує кидок кубика, що гравці не дізнаються.",
+    "image": "/build/img/icons/outsider/hobo_with_shotgun.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "bad_santa_uk",
+    "name": "Поганий Санта (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери дитину, яку не можна номінувати протягом дня.",
+    "reminders": [
+      "Дитина обрана"
+    ],
+    "setup": false,
+    "ability": "Щоночі обирає собі дитину. Протягом наступного дня цього персонажа неможна номінувати, але Санта може його бити у будь який момент, якщо вирішить, що дитина погано себе вела.",
+    "image": "/build/img/icons/outsider/bad_santa.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "holiday_jew_uk",
+    "name": "Новорічний юдей (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Знижка для демона"
+    ],
+    "setup": false,
+    "ability": "Якщо демон вказує на нього вночі, замість нього помирає сусід, а демон отримує святкове обрізання за знижкою. Щоб стратити потрібно на один голос менше.",
+    "image": "/build/img/icons/outsider/holiday_jew.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "prosecutor_uk",
+    "name": "Прокуратор (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Святий чи ні"
+    ],
+    "setup": false,
+    "ability": "Якщо в грі є святий - він не святий.",
+    "image": "/build/img/icons/outsider/prosecutor.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "stalker_uk",
+    "name": "Сталкер (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Отримує ту ж саму інфу, що і Мора.",
+    "reminders": [
+      "Інфу отримано"
+    ],
+    "setup": false,
+    "ability": "Дізнається ту ж саму інфу що і Мора.",
+    "image": "/build/img/icons/outsider/stalker.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "caroler_uk",
+    "name": "Прийшлий колядник (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця, який здаватиметься іншого кольору до наступного ходу.",
+    "reminders": [
+      "Інший колір"
+    ],
+    "setup": false,
+    "ability": "Щоночі обирає гравця. Обраний гравець до наступного ходу здається всім іншого кольору (якщо був синім — здається червоним і навпаки).",
+    "image": "/build/img/icons/outsider/caroler.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "past_christmas_spirit_uk",
+    "name": "Дух минулого Різдва (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Запитай у майстра, чи був обраний гравець отруєний.",
+    "reminders": [
+      "Отруєний чи ні"
+    ],
+    "setup": false,
+    "ability": "Може підійти до майстра і спитати чи був отруєний певний гравець (або зазнав іншого впливу, навіть позитивного).",
+    "image": "/build/img/icons/outsider/past_christmas_spirit.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "present_christmas_spirit_uk",
+    "name": "Дух теперішнього Різдва (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Дізнається роль будь-якого гравця.",
+    "reminders": [
+      "Роль дізнано"
+    ],
+    "setup": false,
+    "ability": "Дізнається в ночі роль будь-якого з гравців на вибір.",
+    "image": "/build/img/icons/outsider/present_christmas_spirit.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "future_christmas_spirit_uk",
+    "name": "Дух майбутнього Різдва (ЧУЖ)",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця, який, ймовірно, помре.",
+    "reminders": [
+      "Майбутня смерть"
+    ],
+    "setup": false,
+    "ability": "Знає в ночі роль гравця із числа городян на будьяк із списку крім червоних ролей та чужинців. Один раз за гру.",
+    "image": "/build/img/icons/outsider/future_christmas_spirit.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "devil_uk",
+    "name": "Чорт (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери місяць для викрадення або вкажи жертву.",
+    "reminders": [
+      "Місяць викрадено"
+    ],
+    "setup": false,
+    "ability": "Один раз за гру може почати ніч негайно, подавши непомітно знак ведучому — вкрасти місяць. Щоб вбити чорта, потрібно проголосувати за нього, а за сусіда зліва.",
+    "image": "/build/img/icons/minion/devil.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "seller_uk",
+    "name": "Продавець різдвяної атрибутики (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця, щоб отруїти або позначити атрибутику.",
+    "reminders": [
+      "Отруєно"
+    ],
+    "setup": false,
+    "ability": "Щоночі отруює тих, на кому нема різдвяної атрибутики: капелюхів Санти, светрів із оленями тощо.",
+    "image": "/build/img/icons/minion/seller.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "lilit_uk",
+    "name": "Ліліт (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця, який стане демоном.",
+    "reminders": [
+      "Демон обраний"
+    ],
+    "setup": false,
+    "ability": "Якщо демона страчують на голосуванні, наступної ночі Ліліт обирає іншого гравця і робить його демоном. У грі -1 міньйон і +1 чужинець. Ліліт отримує вплив в першу ніч.",
+    "image": "/build/img/icons/minion/lilit.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "imp_uk",
+    "name": "Імп (ДЕМ)",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери ціль в ночі, яка помирає.",
+    "reminders": [
+      "Мертвий"
+    ],
+    "setup": false,
+    "ability": "Норміс.",
+    "image": "/build/img/icons/demon/imp.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "krampus_uk",
+    "name": "Крампус (ДЕМ)",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця, щоб активувати його здібність двічі.",
+    "reminders": [
+      "Подвійна дія"
+    ],
+    "setup": false,
+    "ability": "Обирає ціль, в якої здібність спрацьовує двічі. Наступної ночі гравець помирає.",
+    "image": "/build/img/icons/demon/krampus.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "snow_queen_uk",
+    "name": "Снігова Королева (ДЕМ)",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери 3 гравців, які стануть замороженими.",
+    "reminders": [
+      "Заморожені"
+    ],
+    "setup": false,
+    "ability": "В ночі обирає 3 гравця, які будуть заморожені. Один з них смертельно заморожений. Якщо сама вона встане, то помирає. Гравці не знають, що вони заморожені.",
+    "image": "/build/img/icons/demon/snow_queen.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "rin_uk",
+    "name": "Рін (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Зробіть першокурсницю п'яною, вона отримує неправильну інформацію про роль Ріна.",
+    "reminders": [
+      "Першокурсниця п'яна"
+    ],
+    "setup": false,
+    "ability": "Заблудює першокурсницю і вона дізнається роль Ріна-гравця неправильно.",
+    "image": "/build/img/icons/minion/rin.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "gravekeeper_uk",
+    "name": "Грабіжник (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери 2 гравців, голос одного стане відємним.",
+    "reminders": [
+      "Відємний голос"
+    ],
+    "setup": false,
+    "ability": "Двоє гравців прокидаються вночі і обирають чиї голоси вкрасти (голос стає відємним). Якщо хтось з них натрапить на Хлопчика то він помирає. В грі може бути 1 або 2 грабіжники.",
+    "image": "/build/img/icons/minion/gravekeeper.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "scrooge_uk",
+    "name": "Скрудж (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 1,
+    "firstNightReminder": "Позначте двох гравців, які стануть синіми після 3 ночей.",
+    "otherNight": 1,
+    "otherNightReminder": "Якщо 3 ніч: оберіть одного гравця для смерті, якщо ще є постріли.",
+    "reminders": [
+      "Постріли Скруджа"
+    ],
+    "setup": true,
+    "ability": "Перші 3 ночі є міньйоном але не знає червоних гравців. Якщо після 3 ночі залишилось хоча б 2 духи різдва то стає синім гравцем. Якщо ні, то знайомиться з демоном та міньйонами.",
+    "image": "/build/img/icons/minion/scrooge.webp",
+    "remindersGlobal": []
+  },
+  {
+    "id": "kai_uk",
+    "name": "Кай (МИН)",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Обери гравця для смерті або пострілів.",
+    "reminders": [
+      "Постріли Кая"
+    ],
+    "setup": false,
+    "ability": "Знає свого демона та інших міньйонів. Має 3 постріли на гру, якими може вбити 1 гравця в ночі на вибір. Стає синім гравцем якщо його обере в ночі Герда. Зберігає ту кількість пострілів які не були використані.",
+    "image": "/build/img/icons/minion/kai.webp",
+    "remindersGlobal": []
+  }
+]
